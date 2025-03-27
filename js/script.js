@@ -5,7 +5,7 @@ var canvas_cinco = document.getElementById("lienzo-cinco");
 if(canvas_tres.getContext){
     console.log("Sí se soporta la propiedad getContext");
 
-    //Obteniendo el contexto deñ objeto <canvas>
+    //Obteniendo el contexto del objeto <canvas>
     var ctx_3= canvas_tres.getContext("2d");
 
     ctx_3.fillStyle = "rgb(200,0,0)" //Crear un objeto con un color de fondo
@@ -24,7 +24,7 @@ if(canvas_tres.getContext){
 if(canvas_cuatro.getContext){
     console.log("Sí se soporta la propiedad getContext");
 
-    //Obteniendo el contexto deñ objeto <canvas>
+    //Obteniendo el contexto del objeto <canvas>
     var ctx_4= canvas_cuatro.getContext("2d");
 
     ctx_4.beginPath() //Indica un trazado
@@ -40,7 +40,7 @@ if(canvas_cuatro.getContext){
 if(canvas_cinco.getContext){
     console.log("Sí se soporta la propiedad getContext");
 
-    //Obteniendo el contexto deñ objeto <canvas>
+    //Obteniendo el contexto del objeto <canvas>
     var ctx_5= canvas_cinco.getContext("2d");
 
     ctx_5.beginPath();
